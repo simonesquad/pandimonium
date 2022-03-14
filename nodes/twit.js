@@ -21,6 +21,7 @@ function tweetEvent(tweet) {
         })
 
     var name = tweet.user.screen_name;
+    
     var txt = tweet.text;
 
     if (reply_to === 'PizzaDonez') {
