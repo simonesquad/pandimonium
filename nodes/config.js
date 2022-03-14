@@ -1,6 +1,4 @@
-require('dotenv').config();
-
 module.exports = {
-    access_token = process.env.PAN_SEC_TWIT_API_KEY,
-    access_token_secret = process.env.PAN_SEC_TWIT_API_SECRET_KEY
+    access_token: 'XHF88cggtuyjMkCNNRkwo7e3K',
+    access_token_secret: '5BI6weIWRU6Uk5bbpjt6g3lQmbHlbU0aQOfQOrLmQTKVXGcun6'
 }

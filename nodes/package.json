@@ -6,7 +6,6 @@
     },
     "dependencies": {
         "@hubspot/api-client": "^3.4.1",
-        "csv-parse": "^4.15.3",
         "dotenv": "^8.6.0",
         "twit": "^2.2.11"
     }

@@ -22,8 +22,8 @@ class HubspotAPI {
             payload = {
                 properties: {
                     tweet: record[2],
-                    time: record[8],
-                    hashtags: record[9]
+                    time: record[3],
+                    hashtags: record[4]
 
                 }
             }
