@@ -6,8 +6,7 @@ var config = require('./config.js');
 var T = new Twit(config);
 
 //Set up the user stream
-var stream = T.stream('user');
-
+var stream = T.stream('statuses/filter', { track: ['@PizzaDonez'] });
 // Need the bot looking for that specific tweet event mention
 stream.on('tweet', tweetEvent);
 
